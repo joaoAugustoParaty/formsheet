@@ -8,8 +8,41 @@
 }
 
 body{
-    background: #54E38E;
-    
-
+background: rgb(30,34,170);
+background: radial-gradient(circle, rgba(30,34,170,1) 0%, rgba(0,127,255,1) 94%);
+display: flex;
+align-items: center;
+justify-content: center;
+min-height: 100vh;
 }
 
+#titulo{
+    font-weight: 900;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+
+
+.form{
+    padding: 40px;
+    
+}
+
+.form-control{
+    margin-bottom: 30px;
+    position: relative;
+   
+    
+}
+
+.link-primary{
+    text-decoration: none;
+    color: black;
+}
+
+.form-control:focus {
+    border-color: #007fff;
+    outline: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
